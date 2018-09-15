@@ -11,3 +11,9 @@ body {
   float: left;
   border: 2px solid gray;
 }
+
+.my_name {
+  font-size: 36px;
+  font-family: "Arial";
+  font-weight: "bold";
+}
