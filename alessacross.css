@@ -1,7 +1,4 @@
-#top_bar {
-	flex-direction: row;
-}
-
-#top_bar2 {
-	flex-direction: row;
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }

@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" /> <!--specifying which character set a website is written with -->
-	  <link rel="stylesheet" href="alessacross.css">
-  <link rel="icon" type="image/png" href="favicon.png" width="30" height="30" />
+<html lang="en">
 
-    <title>ALESSA CROSS</title>
-  </head>
-  <body>
-    <h2 id="my_name">Alessa Cross</h2>
-    <img src="profile.png" alt="Profile Picture" width="125" height="225">
-    <div id="top_bar">
-     <a href="index.html">Home</a>
-     <a href="education.html">Education</a>
-     <a href="projects.html">Projects</a>
-     <a href="resume.pdf" target="_blank">Resume</a>
-     <a href="contact_me.html">Contact</a>
-    </div>
-    <p id="welcome_text" style="font-weight: bold">Welcome to my page!</p>
-    <p>I'm Alessa Cross, a current third-year at the <a href="https://www.uchicago.edu/" target="_blank">University of Chicago</a> pursuing a B.S. in Computer Science. <br>I am Japanese and Australian. I was 
-    born and raised in the heart of Tokyo until I turned 14 years old, when <br>I decided to attend a boarding school, Phillips Academy in Andover, Massachusetts. 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <p>I first started programming in October 2017. While I've just started my journey in the world of computing, <br>I have worked on several projects and taught myself a few languages so feel free to take a look at what I've done so far. <br>I've built this website so there is physically more space and freedom (than in a page-long resumé) to share what I've <br>worked on and express with more nuance my passion for materializing incredible ideas using code. I am excited to continue adding <br>to this page and to build cooler projects with more beautifully organized code with each passing day.</p>
-  </p>
-    <!-- React component inside this div. -->
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-    <!-- Load React component. -->
-    <script src="like_button.js"></script>
-  </body>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
 </html>
