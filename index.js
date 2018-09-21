@@ -1,16 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./global-styles";
 
-import "./styles.css";
+import Header from "./components/Header";
+import Container from "./components/Container";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+const App = () => (
+  <Router>
+    <div>
+      <Header />
+      <Container />
     </div>
-  );
-}
+  </Router>
+);
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+render(<App />, document.getElementById("root"));
